@@ -1,0 +1,167 @@
+-- GAME STRUCTURE
+
+WINDOW_TITLE = 'Explosion Man'
+VIRTUAL_WIDTH =  272
+VIRTUAL_HEIGHT = 224
+WINDOW_WIDTH = 1280
+WINDOW_HEIGHT = 720
+TILE_SIZE = 16
+
+-- LEVEL GENERATOR --
+
+TILE_SET_SPRITE_HEIGHT = 4
+TILE_SET_SPRITE_WIDTH = 7
+
+-- Shortcuts for indexation
+BACKGROUND = "background"
+BOX = "box"
+NUMBER = "number"
+OUTER_BORDER = "outer-border"
+INNER_BORDER = "inner-border"
+INFO = "info"
+
+BACKGROUND_LEVEL_COLOR = {
+   [1] = {255, 153, 0, 255},
+   [2] = {204, 204, 0, 255},
+   [3] = {66, 121, 209,255}
+}
+BOX_BACKGROUND_LEVEL_COLOR = {
+   [1] = {0,0,0,255}
+}
+NUMBER_LEVEL_COLOR = {
+   [1] = {255,255.255,255},
+}
+OUTER_BORDER_LEVEL_COLOR = {
+   [1] = {0, 0, 0, 255}
+}
+INNER_BORDER_LEVEL_COLOR = {
+   [1] = {255, 255, 255, 255}
+}
+INFO_LEVEL_COLOR = {
+   [1] = {255, 235, 204, 255},
+   [2] = {225, 227, 179, 255},
+   [3] = {129, 169, 232, 255}
+}
+-- MAP --
+
+MAX_MAP_LINE = VIRTUAL_HEIGHT / TILE_SIZE
+MAX_MAP_HEIGHT = TILE_SIZE * MAX_MAP_LINE
+MAX_MAP_COLUMN = VIRTUAL_WIDTH / TILE_SIZE
+MAX_MAP_WIDTH = TILE_SIZE * MAX_MAP_COLUMN
+MAP_BORDER_X_OFFSET = TILE_SIZE
+MAP_BORDER_UP_OFFSET= 2 * TILE_SIZE
+MAP_BORDER_DOWN_OFFSET = TILE_SIZE 
+MAP_RENDER_OFFSET_X = (VIRTUAL_WIDTH - (MAX_MAP_WIDTH * TILE_SIZE)) / 2
+MAP_RENDER_OFFSET_Y = (VIRTUAL_HEIGHT - (MAX_MAP_HEIGHT  * TILE_SIZE)) / 2
+
+-- TILE --
+
+EMPTYSPACE_TILE = 1
+DESTRUCTABLE_TILE = 2
+NONDESTRUCTABLE_TILE = 3
+DESTRUCTABLE_EXPLOSION_FRAMES = 4 
+
+-- STATE --
+
+TITLE_MENU_FIRST = 1
+TITLE_MENU_LAST = 3
+FADE_TIME = 2.0
+FADE_TEXT_INIT = -124
+FADE_TEXT_PAUSE = VIRTUAL_WIDTH/2 -50
+FADE_TEXT_END = VIRTUAL_WIDTH + 100
+SCORE_LETTER_FIRST = 1
+SCORE_LETTER_RIGHT = 3
+SCORE_VALIDCHAR_FIRST = 1
+SCORE_VALIDCHAR_LAST = 36
+VALID_CHAR = {
+    [1] = 'A',
+    [2] = 'B',
+    [3] = 'C',
+    [4] = 'D',
+    [5] = 'E',
+    [6] = 'F',
+    [7] = 'G',
+    [8] = 'H',
+    [9] = 'I',
+    [10] = 'J',
+    [11] = 'K',
+    [12] = 'L',
+    [13] = 'M',
+    [14] = 'N',
+    [15] = 'O',
+    [16] = 'P',
+    [17] = 'Q',
+    [18] = 'R',
+    [19] = 'S',
+    [20] = 'T',
+    [21] = 'U',
+    [22] = 'V',
+    [23] = 'X',
+    [24] = 'W',
+    [25] = 'Y',
+    [26] = 'Z',
+    [27] = '0',
+    [28] = '1',
+    [29] = '2',
+    [30] = '3',
+    [31] = '4',
+    [32] = '5',
+    [33] = '6',
+    [34] = '7',
+    [35] = '8',
+    [36] = '9'
+}
+
+-- PLAYER
+
+PLAYER_OFFSET_Y_RENDER = -12
+PLAYER_INVUL_TIME = 10.0
+PLAYER_WALK_SPEED = 48
+PLAYER_MAX_NUMBER_BOMBS = 8
+PLAYER_MAX_POWER = 8
+SCORE_TO_ONEUP = 8000
+MAX_LIVES = 9
+PLAYER_HITBOX_OFFSET = 4
+
+-- ENTITY
+
+ENTITY_INVUL_TIME = 4.0
+
+ENTITY_LIST = {
+    'bat',
+    'skeleton',
+    'ghost',
+    'slime',
+    'spider',
+}
+ENTITY_DEFAULT_SPEED = 48
+
+-- HITBOX (SHORTCUTS)
+
+HORIZONTALH = 1
+VERTICALH = 2
+
+-- HIGHSCORESCREEN
+
+NAMES_LIST = {
+    'LEO', 
+    'DON', 
+    'RAP', 
+    'MIC', 
+    'SPL', 
+    'SHR',
+    'APR',
+    'CAS',
+    'NIN'
+}
+
+OFFSET_X = 2 * TILE_SIZE
+
+-- GAMEOBJECT
+
+BLAST_TOTAL_TIME = 0.84
+BOMB_TOTAL_TIME = 3.5
+BLOCK_DESTRUCTION_TOTAL_TIME = BLAST_TOTAL_TIME
+POWERUP_MONSTER_DEATH_CHANCE = 65
+POWERUP_NONDESTRUCTABLE_CHANCE = 5
+POWERUP_SCORE_VALUE = 300
