@@ -14,7 +14,7 @@ The engine LÖVE v0.10.2.
 
 
 #### Windows and MAC
-Go to [LÖVE](www.love2d.org) and select "Other Versions" from the "Other Downloads" menu. Download "love-0.10.2-winX.zip" for Windows, or "love-0.10.2-macosx-xX.zip" where is X is your system architecture, and unzip all files in a folder. 
+Go to [LÖVE](www.love2d.org) and select "Other Versions" from the "Other Downloads" menu. Download "love-0.10.2-winX.zip" for Windows, or "love-0.10.2-macosx-xX.zip" where X is your system architecture, and unzip all files in a folder. 
 
 #### Linux
 Supported for Debian distributions only. Go to www.love2d.org and select "Other Versions" from the "Other Downloads" menu. Download and install both "liblove-dbg_0.10.2ppa1_x.deb" and "liblove0_0.10.2ppa1_x.deb" where is x is your system architecture. Optionally, you can also download "love_0.10.2ppa1_x.deb" to make a shortcut to the game.
