@@ -24,7 +24,7 @@ Just drag "main.lua" from the game folder in to the de love executable. For Linu
 
 ## Built With
 
-* [Visual_Studio_Code](https://www.dropwizard.io/1.0.2/docs/) - Source Code Editor
+* [Visual Studio Code](https://code.visualstudio.com/) - Source Code Editor
 * [LÖVE](https://www.love2d.org) - Engine
 * [Aseprite](https://www.aseprite.org/) - Image Editor
 
@@ -38,7 +38,7 @@ You may modify and distribute this project by follwowing ALL of these conditions
 * Personal use;
 * Non profit usage;
 * Open code; 
-* Including Author's proper credits in the source code;
+* Include Author's proper credits in new files of the source code;
 
 ### Example:
 
