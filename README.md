@@ -1,6 +1,6 @@
 # Explosion-Man
 
-Made as final project for CS50's Introduction to Game Development. The game is inspired in the 16-bit games of the Bomberman franchise, with the source being in Lua because of the LÖVE engine. You can see commenting and playing [here]{https://www.youtube.com/watch?v=aFnkgOEx_zY&feature=youtu.be}.
+Made as final project for CS50's Introduction to Game Development. The game is inspired in the 16-bit games of the Bomberman franchise, with the source being in Lua because of the LÖVE engine. You can see commenting and playing [here](https://www.youtube.com/watch?v=aFnkgOEx_zY&feature=youtu.be).
 
 ## Getting Started
 
