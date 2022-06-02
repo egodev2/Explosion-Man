@@ -34,7 +34,7 @@ Just drag "main.lua" from the game folder in to the de love executable. For Linu
 
 ## Rights
 
-You may modify and distribute this project by follwowing ALL of these conditions:
+You may modify and distribute this project by following ALL of these conditions:
 * Personal use;
 * Non profit usage;
 * Open code; 
