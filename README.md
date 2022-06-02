@@ -44,6 +44,6 @@ You may modify and distribute this project by following ALL of these conditions:
 
 ```
 ---------------------------------------------------------------
--- Original project made by Diego Martos Buoro(dmb42odyssey) --
+--   Original project made by Diego Martos Buoro(egodev2)    --
 ---------------------------------------------------------------
 ```
